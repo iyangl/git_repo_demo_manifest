@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="demo"
+           fetch=".."
+           review="https://github.com/cn3ya/" />
+
+  <default revision="master"
+           remote="demo"
+           sync-j="4" />
+
+  <project path="git_repo_demo_project1" name="git_repo_demo_project1" groups="default" />
+  <project path="git_repo_demo_project2" name="git_repo_demo_project2" groups="default" />
+
+</manifest>
